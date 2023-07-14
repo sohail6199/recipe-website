@@ -149,9 +149,13 @@
       max-width:300px;
     }
   }
+
   @media (max-width:300px){
     #navlogo{
       font-size: 15px;
+    }
+    form{
+      width: 200px;
     }
   }
   @media (max-width:850px){
