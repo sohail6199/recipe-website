@@ -12,6 +12,38 @@
     background-size: cover;
     position: absolute;
 }
+
+#navlist{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.navcontain{
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: #a0a010;
+ 
+}
+#navlogo{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left:20px;
+  
+}
+#navdiv{
+  padding-top: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  
+}
+#navreturn{
+  font-size:20px;
+  padding-top: 20px;
+  text-decoration: underline;
+  color: #a0a010;
+
+    }
 .form-box{
     width: 380px;
     height: 480px;

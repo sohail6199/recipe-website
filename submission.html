@@ -7,11 +7,23 @@
   <title>Recipe Submission</title>
 </head>
 <body>
-  <header>
-    <h1>Recipe Submission</h1>
-  </header>
+ 
 
   <div class="mainbox">
+    <div class="navcontain">
+      <nav>
+        <ul id="navlist">
+          <li>
+              <p id="navlogo">Recipe Submission</p>
+          </li>
+          <li>
+            <div id="navdiv">
+              <a   id="navreturn"   href="index.html">Return to Login Page</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <form id="recipe-form" enctype="multipart/form-data">
       <label for="recipe-name">Recipe Name</label>
       <input type="text" id="recipe-name" required>
@@ -29,7 +41,6 @@
       <input type="file" id="recipe-image" accept="image/*" required>
       
       <button type="submit">Submit</button>
-      <a href="index.html">Return to Login Page</a>
     </form>
   </div>
   <footer>Made by Sohail &copy 2023.All Rights Reserved</footer>

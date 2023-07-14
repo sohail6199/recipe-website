@@ -15,18 +15,43 @@
     color: #333;
   
   }
-  
-  header {
-    background-color: #333;
-    justify-content: center;
+  #navlist{
+    list-style: none;
     display: flex;
-    color: #76760c;
-    text-align: center;
+    justify-content: space-between;
+  }
+  .navcontain{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #a0a010;
+   
+  }
+  #navlogo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:20px;
     
   }
+  #navdiv{
+    padding-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+  }
+  #navreturn{
+    font-size:20px;
+    padding-top: 20px;
+    text-decoration: underline;
+    color: #a0a010;
+  
+      }
+  
+  
   footer
   {background-color: #333;
   justify-content: center;
+  
   display: flex;
   color: #a0a010;
   text-align: center;}
@@ -55,7 +80,7 @@
   
   form {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 6% auto;
     background-color: #cda0e8;
     padding: 20px;
     border-radius: 5px;

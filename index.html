@@ -4,10 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  
   <title>Recipe Website</title>
 </head>
 <body>
   <div class="main-box">
+    <div class="navcontain">
+      <nav>
+        <ul id="navlist">
+          <li>
+              <p id="navlogo">Login/Register</p>
+          </li>
+          <li>
+            <div id="navdiv">
+              <a   id="navreturn"   href="submission.html">Go to Recipe Page</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="form-box">
       <div class="button-box">
         <div id="btn"></div>
@@ -21,8 +36,7 @@
         <input type="checkbox" class="check-box"><span>Remember Me</span>
         <button type="submit" class="submit-btn">Sign in</button>
         <a  href="#">Forgot Password</a><br>
-        <a  href="#" onclick="register()">Don't have an account?</a><br>
-        <a href="submission.html">Recipe page</a>
+        <a  href="#" onclick="register()">Don't have an account?</a>
       </form>
 <!---------registeration form--------------------------------------------------------------------------------------------------->      
       <form  id="register"   class="input-group">
