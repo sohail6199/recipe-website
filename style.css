@@ -167,40 +167,5 @@ span{
       max-width: 380px;
     }
   }
-  @media  (max-width: 500px) {
-    
   
-    .navcontain{
-      
-      width: 100%;
-    }
-    
-    #navlogo {
-      font-size:20px;
-      padding-top: 10px;
-    }
-    #navreturn{
-      font-size:10px;
-      
-      padding-top: 0px;}
-    
-    form {
-      max-width:300px;
-    }
-  }
-
-  @media (max-width:300px){
-    #navlogo{
-      font-size: 15px;
-    }
-    .form-box{
-      width: 200px;
-    }
-  }
-  @media (max-width:850px){
-    .form-box {
-      max-width:500px;
-    }
-
-  }
   
