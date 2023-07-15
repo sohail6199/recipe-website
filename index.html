@@ -53,3 +53,58 @@
   
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Recipe Website</title>
+</head>
+<body>
+  <div class="main-box">
+    <div class="navcontain">
+      <nav>
+        <ul id="navlist">
+          <li>
+              <p id="navlogo">Login/Register</p>
+          </li>
+          <li>
+            <div id="navdiv">
+              <a   id="navreturn"   href="submission.html">Go to Recipe Page</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="login()">Sign in</button>
+        <button type="button" class="toggle-btn" onclick="register()">Sign up</button>
+      </div>
+  <!------ login form ------------------------------------------------------------------------------------------------------------------------------->
+      <form id="login" class="input-group">
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="text" class="input-field" placeholder="Password" required>
+        <input type="checkbox" class="check-box"><span>Remember Me</span>
+        <button type="submit" class="submit-btn">Sign in</button>
+        <a  href="#">Forgot Password</a><br>
+        <a  href="#" onclick="register()">Don't have an account?</a>
+      </form>
+<!---------registeration form--------------------------------------------------------------------------------------------------->      
+      <form  id="register"   class="input-group">
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="email" class="input-field" placeholder="Email Id" required>
+        <input type="text" class="input-field" placeholder="Password" required>
+        <input type="checkbox" class="check-box"><span>I agree to terms & conditions</span>
+        <button type="submit" class="submit-btn">Sign up</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
