@@ -168,7 +168,7 @@ span{
     }
   }
   @media  (max-width: 500px) {
-    /* Adjust the breakpoint (480px) according to your needs */
+    
   
     .navcontain{
       
@@ -193,12 +193,12 @@ span{
     #navlogo{
       font-size: 15px;
     }
-    form{
+    .form-box{
       width: 200px;
     }
   }
   @media (max-width:850px){
-    form {
+    .form-box {
       max-width:500px;
     }
 
