@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles1.css">
+  <script defer src="scriptsub.js"></script>
+
   <title>Recipe Submission</title>
 </head>
 <body>
@@ -24,25 +26,27 @@
         </ul>
       </nav>
     </div>
-    <form id="recipe-form" enctype="multipart/form-data">
-      <label for="recipe-name">Recipe Name</label>
-      <input type="text" id="recipe-name" required>
-      <label for="recipe-name">Type of Meal</label>
-      <input type="text" id="typr-of-meal" required>
-      
-            
-      <label for="ingredients">Ingredients</label>
-      <textarea id="ingredients" rows="4" required></textarea>
-      
-      <label for="instructions">Instructions</label>
-      <textarea id="instructions" rows="6" required></textarea>
-      
-      <label for="recipe-image">Recipe Image</label>
-      <input type="file" id="recipe-image" accept="image/*" required>
-      
-      <button type="submit">Submit</button>
+    <form id="recipeForm">
+      <input type="text" id="recipeName" required placeholder="Recipe Name">
+      <textarea id="description" required placeholder="Description"></textarea>
+    
+      <div id="ingredients">
+        <input type="text" class="ingredient-field" required placeholder="Ingredient 1">
+      </div>
+      <button type="button" id="addIngredientBtn">Add Ingredient</button>
+    
+      <div id="instructions">
+        <textarea class="instruction-field" required placeholder="Instruction 1"></textarea>
+      </div>
+      <button type="button" id="addInstructionBtn">Add Instruction</button>
+      <input type="file" name="image" id="imageInput" accept="image/*">
+    
+      <button type="submit">Submit Recipe</button>
     </form>
-  </div>
+    </div>
+    
+   
+    
   <footer>Made by Sohail &copy 2023.All Rights Reserved</footer>
 
  
