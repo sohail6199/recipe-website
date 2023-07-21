@@ -67,6 +67,4 @@ function validated(){
         pass_err.style.display="none";
         return true;
    }}
-
-
   
