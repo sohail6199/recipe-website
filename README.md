@@ -12,7 +12,7 @@ JavaScript: Adds interactivity and dynamic elements to the website.
 Clone this repository to your local machine.
 Navigate to the project directory in your terminal.
 Open index.html in your web browser.
-Alternatively, you can check out the live demo of our website at https://sohail6199.github.io/recipe-website/
+Alternatively, you can check out the live demo of our website at 
 
 Contributions from the community are welcomed ! If you find any issues or have suggestions for improvements, please feel free to create a pull request or submit an issue on our GitHub repository.
 #JavaScript #html #Css #php #MySQL
